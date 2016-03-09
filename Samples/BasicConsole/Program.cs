@@ -25,7 +25,6 @@ namespace SuperWebSocket.Samples.BasicConsole
                 return;
             }
 
-
             Console.WriteLine();
 
             //Try to start the appServer
@@ -46,7 +45,11 @@ namespace SuperWebSocket.Samples.BasicConsole
             // 循环监听
             while (Console.ReadKey().KeyChar != 'q')
             {
-                Console.WriteLine();
+                var key = Console.ReadLine();
+                appServer.NewMessageReceived += (session, message) =>
+                {
+                    session.Send(string.Format("[{0}] Server: I have got your msg: [ {1} ].", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), key));
+                };
                 continue;
             }
 
@@ -57,7 +60,7 @@ namespace SuperWebSocket.Samples.BasicConsole
             Console.WriteLine("The server was stopped!");
             Console.ReadKey();
         }
-        
+
         // When receive message.
         static void appServer_NewMessageReceived(WebSocketSession session, string message)
         {
