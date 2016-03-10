@@ -1,61 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" GraphDirection="LeftToRight" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="@2" Category="CodeSchema_Namespace" Bounds="-132.169426847541,-69.7692974269886,155.450657333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SuperWebSocket" UseManualLocation="True" />
-    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="51.9638723605262,-186.637115762543,218.174776666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SuperWebSocket‎.Command" UseManualLocation="True" />
-    <Node Id="@4" Category="CodeSchema_Namespace" Bounds="-97.6983866701565,135.19345820483,196.412463333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SuperWebSocket‎.Config" UseManualLocation="True" />
-    <Node Id="@5" Category="CodeSchema_Namespace" Bounds="294.377792480023,-65.8168964106897,206.827046666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SuperWebSocket‎.Protocol" UseManualLocation="True" />
-    <Node Id="@6" Category="CodeSchema_Namespace" Bounds="319.900754108687,139.831208183743,308.743333333333,25.0000000000001" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SuperWebSocket‎.Protocol‎.FramePartReader" UseManualLocation="True" />
-    <Node Id="@7" Category="CodeSchema_Namespace" Bounds="84.5813817487954,28.9355967398367,228.805983333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SuperWebSocket‎.SubProtocol" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="20.6521240954877,23.0942444348149,455.933333333333,197.51" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsGeneric="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="AsyncJsonSubCommand‎&lt;TWebSocketSession‎, TJsonCommandInfo‎&gt;" />
+    <Node Id="@12" Category="CodeSchema_Class" Bounds="20.6521240954877,250.604244434815,422.176666666667,141.673333333333" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsGeneric="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="JsonSubCommand‎&lt;TWebSocketSession‎, TJsonCommandInfo‎&gt;" />
+    <Node Id="@13" Category="CodeSchema_Interface" Bounds="546.58555742882,-43.6726937542794,184.78,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="IWebSocketFragment" />
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="136.591293244039,174.739909726694,223.966478293333,25.8361245066666" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnAsyncJsonCommandExecuted" />
+    <Node Id="@18" Category="CodeSchema_Method" Bounds="161.292124095488,290.604244434815,140.896666666667,25.8366666666667" CodeSchemaProperty_IsProtected="True" DelayedCrossGroupLinksState="Fetched" Label="SendJsonMessage" />
+    <Node Id="@2" Category="CodeSchema_Namespace" Bounds="-411.211309237846,-60.7782476475487,155.446666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SuperWebSocket" UseManualLocation="True" />
+    <Node Id="@20" Category="CodeSchema_Method" Bounds="136.591293244039,63.1389407133605,140.953638826667,25.8361245066667" CodeSchemaProperty_IsProtected="True" DelayedCrossGroupLinksState="Fetched" Label="SendJsonMessage" />
+    <Node Id="@21" Category="CodeSchema_Method" Bounds="161.292124095488,346.440911101481,140.896666666667,25.8366666666666" CodeSchemaProperty_IsProtected="True" DelayedCrossGroupLinksState="Fetched" Label="SendJsonMessage" />
+    <Node Id="@22" Category="CodeSchema_Method" Bounds="136.591293244039,118.939425220027,140.953638826667,25.8361245066666" CodeSchemaProperty_IsProtected="True" DelayedCrossGroupLinksState="Fetched" Label="SendJsonMessage" />
+    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="-65.5687113130739,-71.9057555651851,218.183333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SuperWebSocket‎.Command" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Namespace" Bounds="-225.764642571179,-5.77824764754871,196.416666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SuperWebSocket‎.Config" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Namespace" Bounds="526.58555742882,-83.6726937542794,224.78,85" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="SuperWebSocket‎.Protocol" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Namespace" Bounds="574.180361442497,90.9312836964715,308.743333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SuperWebSocket‎.Protocol‎.FramePartReader" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_Namespace" Bounds="0.652124095487721,-16.9057555651851,495.933333333333,429.183333333333" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="SuperWebSocket‎.SubProtocol" UseManualLocation="True" />
   </Nodes>
   <Links>
-    <Link Source="@2" Target="@3" Category="CodeSchema_Calls" Bounds="-24.9972972869873,-157.350723266602,161.360120773315,87.581428527832" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8" />
-    <Link Source="@2" Target="@4" Category="References" Bounds="-51.0945065388091,-44.7692974269886,45.9220530618603,171.269809641469" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="12">
+    <Link Source="(@1 Namespace=SuperWebSocket.Protocol Type=WebSocketDataFrameReceiveFilter)" Target="@13" Category="References" Weight="1" />
+    <Link Source="@10" Target="@15" Category="Contains" />
+    <Link Source="@10" Target="@20" Category="Contains" />
+    <Link Source="@10" Target="@22" Category="Contains" />
+    <Link Source="@12" Target="@18" Category="Contains" />
+    <Link Source="@12" Target="@21" Category="Contains" />
+    <Link Source="@15" Target="@13" Category="References" Bounds="271.659744914181,-14.2713134469285,337.172017648756,189.039215988339" Weight="1" />
+    <Link Source="@18" Target="@13" Category="References" Bounds="247.458869195391,-12.9582081742495,369.356087109478,303.562535222327" Weight="1" />
+    <Link Source="@2" Target="@13" Category="References" IsSourceVirtualized="True" Weight="61" />
+    <Link Source="@2" Target="@3" Category="CodeSchema_Calls" Bounds="-256.376708984375,-79.1313095092773,269.823018074036,20.9559860229492" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8" />
+    <Link Source="@2" Target="@4" Category="References" Bounds="-286.685324389361,-35.7782476475487,103.631142188899,27.677689947585" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="12">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@2" Target="@5" Category="References" Bounds="23.2792351524595,-56.5900045120767,262.098901025299,2.29065517672131" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="107">
-      <Category Ref="CodeSchema_Calls" />
-      <Category Ref="CodeSchema_ReturnTypeLink" />
-    </Link>
-    <Link Source="@2" Target="@7" Category="References" Bounds="-15.7773151397705,-44.7692985534668,182.099779129028,70.4867572784424" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="49">
-      <Category Ref="CodeSchema_Calls" />
-      <Category Ref="CodeSchema_ReturnTypeLink" />
-    </Link>
-    <Link Source="@3" Target="@2" Category="CodeSchema_Calls" Bounds="-29.702018737793,-161.637115478516,161.380546569824,87.5899200439453" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="26" />
-    <Link Source="@3" Target="@5" Category="References" Bounds="185.548105136589,-161.637115762543,179.734290339619,91.7290013308698" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="75">
-      <Category Ref="CodeSchema_Calls" />
-    </Link>
-    <Link Source="@5" Target="@2" Category="References" Bounds="32.2788914595013,-56.5113558475973,262.102044353855,2.29066672677398" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="107">
-      <Category Ref="CodeSchema_Calls" />
-      <Category Ref="CodeSchema_FieldRead" />
-      <Category Ref="CodeSchema_ReturnTypeLink" />
-    </Link>
-    <Link Source="@5" Target="@6" Category="References" Bounds="399.139984130859,-40.81689453125,63.9468078613281,172.238967895508" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
-      <Category Ref="CodeSchema_Calls" />
-    </Link>
-    <Link Source="@6" Target="@5" Category="References" Bounds="408.593963623047,-32.3570404052734,64.1216735839844,172.188247680664" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="27">
-      <Category Ref="CodeSchema_Calls" />
-    </Link>
-    <Link Source="@7" Target="@2" Category="References" Bounds="-23.3569240570068,-41.376392364502,181.304479598999,70.3119888305664" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="23">
-      <Category Ref="CodeSchema_Calls" />
-    </Link>
-    <Link Source="@7" Target="@4" Category="References" Bounds="31.792598109947,53.9355967398367,143.843570286154,77.0099725904367" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8">
-      <Category Ref="CodeSchema_Calls" />
-    </Link>
-    <Link Source="@7" Target="@5" Category="References" Bounds="225.211926791735,-36.9447953580962,138.230520015865,65.8803920979329" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="5" />
+    <Link Source="@20" Target="@13" Category="References" Bounds="259.138704640646,-16.5048698563676,320.736058263299,79.599067984445" Weight="1" />
+    <Link Source="@21" Target="@13" Category="References" Bounds="245.211538012766,-12.4433529357004,374.235214430091,358.884446650444" Weight="1" />
+    <Link Source="@22" Target="@13" Category="References" Bounds="241.309976700541,-15.4944269179542,356.131054084615,134.425391712698" Weight="1" />
+    <Link Source="@3" Target="@13" Category="References" IsSourceVirtualized="True" Weight="21" />
+    <Link Source="@3" Target="@2" Category="CodeSchema_Calls" Bounds="-317.369567871094,-84.9201049804688,369.560550689697,23.7047920227051" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="26" />
+    <Link Source="@5" Target="@13" Category="Contains" />
+    <Link Source="@8" Target="@10" Category="Contains" />
+    <Link Source="@8" Target="@12" Category="Contains" />
   </Links>
   <Categories>
     <Category Id="CodeSchema_Calls" Label="调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用者" OutgoingActionLabel="调用" />
-    <Category Id="CodeSchema_FieldRead" Label="字段读取" BasedOn="CodeSchema_FieldReference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="读取方" OutgoingActionLabel="读取字段" />
-    <Category Id="CodeSchema_FieldReference" Label="字段引用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="引用方" OutgoingActionLabel="引用字段" />
+    <Category Id="CodeSchema_Class" Label="类" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类" />
+    <Category Id="CodeSchema_Interface" Label="接口" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="接口" />
+    <Category Id="CodeSchema_Member" Label="编号" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="成员" />
+    <Category Id="CodeSchema_Method" Label="方法" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="方法" />
     <Category Id="CodeSchema_Namespace" Label="命名空间" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="命名空间" />
-    <Category Id="CodeSchema_ReturnTypeLink" Label="返回" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="返回类型" OutgoingActionLabel="返回类型" />
+    <Category Id="CodeSchema_Type" Label="类型" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="类型" />
+    <Category Id="Contains" Label="包含" Description="链接的源是否包含目标对象" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="包含者" IsContainment="True" OutgoingActionLabel="包含" />
     <Category Id="References" Label="引用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="引用者" OutgoingActionLabel="引用" />
   </Categories>
   <Properties>
     <Property Id="Bounds" DataType="System.Windows.Rect" />
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="是抽象的" Description="一个标志，用于指示该成员是“抽象”成员且不提供完整实现" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsGeneric" Label="是泛型的" Description="一个标志，用于指示该成员是“泛型”成员" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="是私有的" Description="一个标志，用于指示该范围是“私有”范围" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="是受保护的" Description="一个标志，用于指示该范围是“受保护”范围" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="是公共的" Description="一个标志，用于指示该范围是“公共”范围" DataType="System.Boolean" />
     <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
     <Property Id="DelayedChildNodesState" Label="延迟的子节点状态" Description="如果未指定延迟的子节点状态，则为 Unspecified。如果尚未将组包含的子节点提取到关系图中，则为 NotFetched。如果已提取组内的所有延迟的子节点，则为 Fetched。" DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
@@ -66,6 +69,7 @@
     <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsSourceVirtualized" Label="已虚拟化链接源" Description="如果为 true，则链接源端包含虚拟化节点/链接(即，不在图中实际创建)的数据。" DataType="System.Boolean" />
     <Property Id="IsTargetVirtualized" Label="已虚拟化链接目标" Description="如果为 true，则链接目标端包含虚拟化节点/链接(即，不在图中实际创建)的数据。" DataType="System.Boolean" />
@@ -82,7 +86,13 @@
   </Properties>
   <QualifiedNames>
     <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="GenericParameterCount" Label="泛型形参计数" ValueType="System.String" />
+    <Name Id="Member" Label="编号" ValueType="System.Object" />
+    <Name Id="Name" Label="名称" ValueType="System.String" />
     <Name Id="Namespace" Label="命名空间" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="参数" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParameterIdentifier" Label="参数标识符" ValueType="System.String" />
+    <Name Id="Type" Label="类型" ValueType="System.Object" />
   </QualifiedNames>
   <IdentifierAliases>
     <Alias n="1" Uri="Assembly=$(2dc79e40-bb70-4f6a-b378-905f2fbc6e97.OutputPathUri)" />
@@ -91,7 +101,22 @@
     <Alias n="4" Id="(@1 Namespace=SuperWebSocket.Config)" />
     <Alias n="5" Id="(@1 Namespace=SuperWebSocket.Protocol)" />
     <Alias n="6" Id="(@1 Namespace=SuperWebSocket.Protocol.FramePartReader)" />
-    <Alias n="7" Id="(@1 Namespace=SuperWebSocket.SubProtocol)" />
+    <Alias n="7" Id="Namespace=SuperWebSocket.SubProtocol" />
+    <Alias n="8" Id="(@1 @7)" />
+    <Alias n="9" Id="Type=(Name=AsyncJsonSubCommand GenericParameterCount=2)" />
+    <Alias n="10" Id="(@1 @7 @9)" />
+    <Alias n="11" Id="Type=(Name=JsonSubCommand GenericParameterCount=2)" />
+    <Alias n="12" Id="(@1 @7 @11)" />
+    <Alias n="13" Id="(@1 Namespace=SuperWebSocket.Protocol Type=IWebSocketFragment)" />
+    <Alias n="14" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="15" Id="(@1 @7 @9 Member=(Name=OnAsyncJsonCommandExecuted OverloadingParameters=[(@14 Namespace=System Type=IAsyncResult)]))" />
+    <Alias n="16" Id="Name=SendJsonMessage" />
+    <Alias n="17" Id="(@14 Namespace=System Type=Object)" />
+    <Alias n="18" Id="(@1 @7 @11 Member=(@16 OverloadingParameters=[(@1 @7 @11 ParameterIdentifier=0),@17]))" />
+    <Alias n="19" Id="(@14 Namespace=System Type=String)" />
+    <Alias n="20" Id="(@1 @7 @9 Member=(@16 OverloadingParameters=[(@1 @7 @9 ParameterIdentifier=0),@19,@17]))" />
+    <Alias n="21" Id="(@1 @7 @11 Member=(@16 OverloadingParameters=[(@1 @7 @11 ParameterIdentifier=0),@19,@17]))" />
+    <Alias n="22" Id="(@1 @7 @9 Member=(@16 OverloadingParameters=[(@1 @7 @9 ParameterIdentifier=0),@19,@19,@17]))" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
@@ -222,5 +247,6 @@
   </Styles>
   <Paths>
     <Path Id="2dc79e40-bb70-4f6a-b378-905f2fbc6e97.OutputPathUri" Value="file:///D:/GitSpace/SuperWebSocket/SuperWebSocket/bin/Debug/SuperWebSocket.dll" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
   </Paths>
 </DirectedGraph>
